@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#9C9B9B"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.trashspot.FormFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_form" />
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/ic_baseline_center_focus_weak_24"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/btn_spot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Spot a Trash"
+        android:padding="10sp"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
